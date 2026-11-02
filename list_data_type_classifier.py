@@ -7,3 +7,4 @@ def group_types(i_list):
             output[keys] = "String"
     return output
 custom_list = [10, "one", "two", "ten", 20, 30, "five", 40, "nine", 50]
+print(group_types(custom_list))
